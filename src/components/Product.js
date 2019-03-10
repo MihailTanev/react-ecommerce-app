@@ -8,7 +8,7 @@ export default class Product extends Component {
   render() {
     const { id, title, img, price, inCart } = this.props.product;
     return (
-      <ProductWrapper className="col-9 col-md-6 col-lg-4 mx-auto my-3 mb-5">
+      <ProductWrapper className="col-12 col-md-6 col-lg-4 mx-auto my-3 mb-5">
         <div className="card">
           <ProductConsumer>
             {value => (
@@ -41,7 +41,7 @@ export default class Product extends Component {
           <div className="card-footer d-flex justify-content-between">
             <p className="aligh-self-canter mb-0">{title}</p>
             <h5 className="text-blue font-italic mb-0">
-              <span className="mr-1">${price}</span>
+              <span className="mr-1">$ {price}</span>
             </h5>
           </div>
         </div>
