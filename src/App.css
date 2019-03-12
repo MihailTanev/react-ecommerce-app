@@ -4,11 +4,17 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+  --space: 1.5em 0;
+  --space: 2em 0;
 }
 body {
   font-family: "Oswald", sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
+}
+html,
+body {
+  height: 100%;
 }
 .text-title {
   letter-spacing: 0.3rem;
@@ -37,4 +43,23 @@ body {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
+}
+.Site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Site-content {
+  flex: 1 0 auto;
+  padding: var(--space) var(--space) 0;
+  width: 100%;
+}
+
+.Site-content:after {
+  content: "\00a0";
+  display: block;
+  margin-top: var(--space);
+  height: 0;
+  visibility: hidden;
 }
