@@ -13,7 +13,7 @@ function Autoplay() {
             style={{
               background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
                 item.image
-              }) center/cover fixed no-repeat`
+              }) center/cover no-repeat`
             }}
           >
             <div className="center">
