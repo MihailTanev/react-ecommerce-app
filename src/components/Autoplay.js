@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-animated-slider";
-import horizontalCss from "./horizontal.css";
+import horizontalCss from "./test.css";
 import content from "../sliderdata";
 
 function Autoplay() {

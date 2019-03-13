@@ -62,5 +62,4 @@ body {
   display: block;
   margin-top: var(--space);
   height: 0;
-  visibility: hidden;
 }
