@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-animated-slider";
-import horizontalCss from "./test.css";
+import horizontalCss from "./horizontal.css";
 import content from "../sliderdata";
 
 function Autoplay() {
@@ -13,7 +13,7 @@ function Autoplay() {
             style={{
               background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
                 item.image
-              }) center/cover no-repeat`
+              }) center/cover fixed no-repeat`
             }}
           >
             <div className="center">

@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 400px;
-  overflow-x: auto;
+  overflow: hidden;
 }
 .slider a.previousButton,
 .slider a.nextButton {
@@ -35,7 +35,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  overflow-x: auto;
+  overflow: hidden;
 }
 .slide.hidden {
   visibility: hidden;
