@@ -12,7 +12,9 @@ body {
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
-html,
+html {
+  overflow-y: scroll;
+}
 body {
   height: 100%;
 }
