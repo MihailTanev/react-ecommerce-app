@@ -1,7 +1,7 @@
 .slider {
   position: relative;
   width: 100%;
-  height: 400px;
+  min-height: calc(100vh - 68px);
   overflow: hidden;
 }
 .slider a.previousButton,
