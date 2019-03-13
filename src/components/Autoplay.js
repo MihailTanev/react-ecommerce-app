@@ -11,9 +11,7 @@ function Autoplay() {
           <div
             key={index}
             style={{
-              background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${
-                item.image
-              }) center/cover fixed no-repeat`
+              background: `url('${item.image}') no-repeat center center`
             }}
           >
             <div className="center">
