@@ -3,6 +3,8 @@
   width: 100%;
   height: 400px;
   overflow: hidden;
+  -ms-touch-action: auto;
+  touch-action: auto;
 }
 .slider a.previousButton,
 .slider a.nextButton {
