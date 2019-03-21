@@ -9,7 +9,6 @@ import ProductList from "./components/ProductList";
 import Default from "./components/Deafault";
 import { Switch, Route } from "react-router-dom";
 import Modal from "./components/Modal";
-import Autoplay from "./components/Autoplay";
 
 class App extends Component {
   render() {
@@ -18,7 +17,6 @@ class App extends Component {
         <div className="Site-content">
           <React.Fragment>
             <Navbar />
-            <Autoplay />
             <Switch>
               <Route exact path="/" component={ProductList} />
               <Route path="/details" component={Details} />

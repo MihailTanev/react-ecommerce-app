@@ -19,7 +19,7 @@ export default class Details extends Component {
             title
           } = value.detailProduct;
           return (
-            <Animated animationIn="zoomIn" >
+            <Animated animationIn="zoomIn">
               <div className="container py-5">
                 <div className="row">
                   <div className="col-10 mx-auto text-center text-slanted text-blue my-5">
